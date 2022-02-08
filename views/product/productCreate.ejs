@@ -40,6 +40,16 @@
                     <option value="bestSeller">bestSeller</option>
                 </select><br><br>
 
+            <div>
+                <select name="genero">
+                    <% for (let i = 0; i < generos.length; i++){ %>
+                    <option value = "<%=generos[i].id%>">
+                          <%=generos[i].genderName%>
+                    </option>
+                        <% } %>
+                </select>
+            </div> 
+
                 <input type="file" name="image" id="file"/><br><br>
                 <input type="submit" value="Submit"><br><br>
             </form>

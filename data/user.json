@@ -56,5 +56,17 @@
   "email": "",
   "birth": "",
   "address": ""
+ },
+ {
+  "id": 6,
+  "img": "",
+  "registered": "Sun, 06 Feb 2022 22:26:55 GMT",
+  "hashedPassword": "$2b$12$ysx8EvETIOx/PHDPnJVoHuk5KYoH2PZ3whaC/h1ZTrIafz5exknAm",
+  "name": "max",
+  "lastName": "ascanio",
+  "userName": "maxbox",
+  "email": "maxbox21@hotmail.com",
+  "birth": "1985-03-25",
+  "address": "caba"
  }
 ]

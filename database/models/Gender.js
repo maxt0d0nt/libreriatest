@@ -23,9 +23,9 @@ module.exports = function (sequelize, dataTypes){
   Gender.associate = function(models) {
     Gender.hasMany(models.Books, {
       as: "products",
-      foreignKey: gender_id
+      foreignKey: "gender_id"
     })
   
-
-  return Gender
+  }
+  return Gender;
 }
